@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   
+    float V1,V2,S,Summ,T;
+    cout<<"Введите V1,V2,S и T";
+    cin>>V1;
+    cin>>V2;
+    cin>>S;
+    cin>>T;
+    Summ=S + T*(V1 + V2);
+    cout<<Summ;
+    return 0;
+}
